@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import '../App.css';
 import './navbar.css';
 
@@ -24,17 +25,17 @@ export const NavBar = () => {
   return (
     <header className={`navbar ${isSticky ? 'sticky' : ''}`}>
       <div className="container">
-        <div className="logo">Die Taverne</div>
+        <Link to="/" className="logo">Die Taverne</Link>
       <nav>
         <ul>
           <li>
-            <a href="#beats">Beats</a>
+        <Link to="Beasts"> Beastiarium </Link>
           </li>
           <li>
-            <a href="#detail">Detail</a>
+            <Link to="Dicegame"> Dicegame </Link>
           </li>
           <li>
-            <a href="#map">Map</a>
+            <Link to="Map"> Map </Link>
           </li>
         </ul>
       </nav>
