@@ -12,7 +12,7 @@ function Beasts() {
             <div
               className="beastsDisplay"
               onClick={() => {
-                navigate(`/Details/${beast.id}`);
+                navigate(`/Beasts/${beast.id}`);
               }}
             >
               <h1>{beast.name}</h1> <p>{beast.description}</p>{" "}
