@@ -1,14 +1,12 @@
-import Header from './components/Header';
+import { NavBar } from './components/navbar';
+
 
 function App() {
  return (
     <div>
-        <header>
-            <p>Die Taverne</p>
-        </header>
+        <NavBar /> 
         <main>
-
-
+        <img src="/images/Taverne.jpg" alt="Background Image" />
         </main>
     </div>
  );
