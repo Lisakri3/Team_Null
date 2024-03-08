@@ -9,6 +9,10 @@ function Home() {
         alt="Background Image"
         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
       />
+      <h1 className="welcome-text">
+          - Willkommen in der Taverne-<br />
+          Klicke auf den Bereich, den du besuchen willst
+      </h1>
       <a
         href="/Beasts"
         style={{
@@ -17,7 +21,7 @@ function Home() {
           left: '5%',
           width: '15%',
           height: '30%',
-          boxSizing: 'border-box', // Rahmen wird in die Gesamtgröße des Bereichs einbezogen
+          boxSizing: 'border-box', 
         }}
       />
       <a
@@ -28,7 +32,7 @@ function Home() {
           left: '0%',
           width: '25%',
           height: '30%',
-          boxSizing: 'border-box', // Rahmen wird in die Gesamtgröße des Bereichs einbezogen
+          boxSizing: 'border-box', 
         }}
       />
       <a
@@ -39,7 +43,7 @@ function Home() {
           left: '31%',
           width: '25%',
           height: '28%',
-          boxSizing: 'border-box', // Rahmen wird in die Gesamtgröße des Bereichs einbezogen
+          boxSizing: 'border-box', 
         }}
       />
 
@@ -51,7 +55,7 @@ function Home() {
           left: '62%',
           width: '37%',
           height: '30%',
-          boxSizing: 'border-box', // Rahmen wird in die Gesamtgröße des Bereichs einbezogen
+          boxSizing: 'border-box', 
         }}
       />
 
@@ -63,7 +67,7 @@ function Home() {
           left: '40%',
           width: '31%',
           height: '30%',
-          boxSizing: 'border-box', // Rahmen wird in die Gesamtgröße des Bereichs einbezogen
+          boxSizing: 'border-box', 
         }}
       />
     </div>

@@ -1,10 +1,28 @@
-
+@font-face{
+  font-family: 'Dungeon';
+  src: url('./fonts/Dungeon.ttf') format('truetype');
+}
 
 
 .App {
   text-align: center;
 }
 
+.welcome-text {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #dea760;
+  padding: 15px;
+  border: 3px solid #8b5e2b; /* Brauner Rahmen mit einer Dicke von 3 Pixeln */
+  border-radius: 10px;
+  font-family: 'Dungeon', sans-serif;
+}
 
 
 
@@ -21,29 +39,8 @@
   background-position: center;
 }
 
-.listOfBeasts {
-  width: 100%;
- 
-  /*height: calc(100vh - 80px);*/
-  display: flex;
-  justify-content: center;
-  padding-top: 60px;
-  background-color:#F2C49B;
-  height: calc(100vh - 80px);
-} 
 
-.beastList {
-  columns: 3 auto;
-  display: inline-block;
-  flex-direction: row;
 
-}
 
-.beastsDisplay {
-  width: 300px;
-  height: 300px;
-  background-color: rgb(231, 231, 231);
-  cursor: pointer;
-}
 
 

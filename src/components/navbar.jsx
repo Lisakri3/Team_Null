@@ -29,13 +29,13 @@ export const NavBar = () => {
       <nav>
         <ul>
           <li>
-        <Link to="Beasts"> Beastiarium </Link>
+        <Link to="Beasts"> Bestiarium </Link>
           </li>
           <li>
-            <Link to="Dicegame"> Dicegame </Link>
+            <Link to="Dicegame"> Würfelspiel </Link>
           </li>
           <li>
-            <Link to="Map"> Map </Link>
+            <Link to="Map"> Karte </Link>
           </li>
         </ul>
       </nav>

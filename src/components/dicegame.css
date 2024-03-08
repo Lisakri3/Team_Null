@@ -8,24 +8,27 @@
 .title {
     margin-top: 10px; /* Abstand zwischen Titel und den Würfeln */
     font-family: 'Seagram', sans-serif;
-    font-size: 85px;
+    font-size: 80px;
     color: rgb(238, 238, 238);
   }
 
 .Player1{
     font-size: 20px;
     color: rgb(238, 238, 238);
+    font-family: 'Dungeon', sans-serif;
     
 }
 
 .Player2{
     font-size: 20px;
     color: rgb(238, 238, 238);
+    font-family: 'Dungeon', sans-serif;
 }
 
 .result{
     color: rgb(238, 238, 238);
     font-size: 25px;
+    font-family: 'Dungeon', sans-serif;
 }
 
 
@@ -42,7 +45,7 @@
   }
 
 .btn {
-    background-color: #b99565;
+    background-color: #dea760;
     color: black;
     border: none;
     padding: 10px 20px;
@@ -52,7 +55,7 @@
   }
 
   .btn:hover {
-    background-color: #796143; 
+    background-color: #be9057; 
 }
 
   .dicegamecontainer {
