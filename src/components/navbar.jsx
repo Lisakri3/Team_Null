@@ -25,7 +25,7 @@ export const NavBar = () => {
   return (
     <header className={`navbar ${isSticky ? 'sticky' : ''}`}>
       <div className="container">
-        <Link to="/" className="logo">Die Taverne</Link>
+        <Link to="/" className="logo"> - Die Taverne - </Link>
       <nav>
         <ul>
           <li>

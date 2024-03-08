@@ -6,9 +6,11 @@ import Beasts from "./components/Beastiarium/beasts.jsx";
 import Dicegame from "./components/Dicegame.jsx";
 import Map from "./components/map.jsx";
 
+
 function App() {
   return (
-    <Router>
+    <div className="website">
+      <Router>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,6 +19,8 @@ function App() {
         <Route path="Beasts" element={<Beasts />} />
       </Routes>
     </Router>
+    </div>
+
   );
 }
 

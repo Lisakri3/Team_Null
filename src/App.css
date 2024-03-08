@@ -1,8 +1,26 @@
+
+
+
 .App {
   text-align: center;
 }
 
-   
+
+
+
+
+.tavernepic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#F2C49B;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  
+  
+  background-position: center;
+}
+
 .listOfBeasts {
   width: 100%;
   height: calc(100vh - 80px);
@@ -15,6 +33,7 @@
 .beastsList {
   columns: 3 auto;
   display: inline-block;
+  
 }
 
 .beastsDisplay {
@@ -23,3 +42,5 @@
   background-color: rgb(231, 231, 231);
   cursor: pointer;
 }
+
+

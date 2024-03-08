@@ -1,0 +1,85 @@
+
+
+  @font-face{
+    font-family: 'Seagram';
+    src: url('../fonts/Seagram.ttf') format('truetype');
+  }
+
+.title {
+    margin-top: 30px; /* Abstand zwischen Titel und den Würfeln */
+    font-family: 'Seagram', sans-serif;
+    font-size: 85px;
+    color: rgb(238, 238, 238);
+  }
+
+.Player1{
+    font-size: 20px;
+    color: rgb(238, 238, 238);
+    
+}
+
+.Player2{
+    font-size: 20px;
+    color: rgb(238, 238, 238);
+}
+
+.result{
+    color: rgb(238, 238, 238);
+    font-size: 25px;
+}
+
+
+  .emptySpace {
+   /* background-color: #F2C49B; */
+    width: 200px; 
+    height: 150px; 
+}
+
+  .twoDices {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+.btn {
+    background-color: #b99565;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #796143; 
+}
+
+  .dicegamecontainer {
+    background-image: url('../assets/DiceBackground3.png');
+    background-size: 1500px 1000px; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+
+  
+  .dice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px; 
+  }
+
+  .dice + .dice {
+    margin-left: 30px; /* Ändere den Abstand zwischen den Würfeln nach Bedarf */
+  }
+  
+  .containerbottom {
+    margin-top: 20px; /* Abstand zwischen den Buttons und dem unteren Text */
+  }
