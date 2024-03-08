@@ -73,6 +73,7 @@ function Dicegame() {
     
 <div className="dicegamecontainer">
       <h1 className="title">- Das Würfelspiel in der Taverne -</h1>
+      <h1 className="result">{result}</h1>
 <div className="twoDices">
       <div className="dice">
         <p className="Player1">{player1}</p>
@@ -95,7 +96,6 @@ function Dicegame() {
           Namen ändern
         </button>
       </div>
-      <h1 className="result">{result}</h1>
     <div className="emptySpace"></div> 
     </div>
     

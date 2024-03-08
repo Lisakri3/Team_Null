@@ -23,17 +23,20 @@
 
 .listOfBeasts {
   width: 100%;
-  height: calc(100vh - 80px);
+ 
+  /*height: calc(100vh - 80px);*/
   display: flex;
-  flex-direction: row;
   justify-content: center;
   padding-top: 60px;
+  background-color:#F2C49B;
+  height: calc(100vh - 80px);
 } 
 
-.beastsList {
+.beastList {
   columns: 3 auto;
   display: inline-block;
-  
+  flex-direction: row;
+
 }
 
 .beastsDisplay {

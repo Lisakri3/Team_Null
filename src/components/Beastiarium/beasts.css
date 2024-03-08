@@ -1,0 +1,33 @@
+.beastsDisplay{
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.beastImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+  }
+
+  .beastDescription {
+    position: absolute;
+    top: 1%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    
+  }
+
+  
+

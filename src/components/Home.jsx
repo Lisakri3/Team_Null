@@ -60,8 +60,8 @@ function Home() {
         style={{
           position: 'absolute',
           top: '60%',
-          left: '45%',
-          width: '25%',
+          left: '40%',
+          width: '31%',
           height: '30%',
           boxSizing: 'border-box', // Rahmen wird in die Gesamtgröße des Bereichs einbezogen
         }}

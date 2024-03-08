@@ -6,7 +6,7 @@
   }
 
 .title {
-    margin-top: 30px; /* Abstand zwischen Titel und den Würfeln */
+    margin-top: 10px; /* Abstand zwischen Titel und den Würfeln */
     font-family: 'Seagram', sans-serif;
     font-size: 85px;
     color: rgb(238, 238, 238);
