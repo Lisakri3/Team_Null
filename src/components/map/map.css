@@ -1,0 +1,61 @@
+
+.maptitle{
+    text-align: center; /* Text in der Mitte ausrichten */
+    font-size: 50px;
+    font-family: 'Seagram', sans-serif;
+    color: black;
+    background-color: #dea760;
+  padding: 15px;
+  border: 3px solid #8b5e2b; /* Brauner Rahmen mit einer Dicke von 3 Pixeln */
+  border-radius: 10px;
+}
+
+.map {
+    width: 100vw; /* Fülle die gesamte Breite des Viewports aus */
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('../../assets/mapbg1.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: cover; /* Das Bild wird so skaliert, dass es den gesamten Bereich abdeckt */
+    position: relative;
+}
+
+
+
+.mapimage {
+    display: flex;
+    justify-content: center; /* horizontal zentrieren */
+    align-items: center; /* vertikal zentrieren */
+    
+}
+
+
+.mapimage path{
+    fill: #CCCCCC;
+            fill-opacity: 1;
+            stroke: white;
+            stroke-opacity: 1;
+            stroke-width: 0.5;
+            transition: fill 0.3s;
+  }
+
+  .mapimage path:hover {
+    fill: #dea760;
+    cursor: pointer;
+}
+
+.maplist {
+    position: absolute;
+    top: 300px; /* Abstand vom oberen Rand */
+    right: 5%; /* rechter Rand */
+    width: 10%;
+    font-size: 24px;
+    background-color: #dea760;
+  padding: 5px;
+  border: 3px solid #8b5e2b; /* Brauner Rahmen mit einer Dicke von 3 Pixeln */
+  border-radius: 5px;
+}
+
+  
