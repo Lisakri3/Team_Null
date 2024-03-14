@@ -1,0 +1,59 @@
+.beastsDisplay{
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+    height: 300px;
+    background-color: rgb(231, 231, 231);
+  
+}
+
+.beastImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+  }
+
+  .beastDescription {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    
+  }
+
+  .listOfBeasts {
+    width: 100%;
+    /*height: calc(100vh - 80px);*/
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    background-color:#F2C49B;
+    height: calc(100vh - 80px);
+    background-image: url('../../assets/book.png');
+    background-size: 1500px 1000px; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+  } 
+
+  .beastList {
+    columns: 3 auto;
+    display: inline-block;
+    flex-direction: row;
+  
+  }
+  
+  
+  
+

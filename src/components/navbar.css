@@ -1,11 +1,16 @@
+@font-face{
+  font-family: 'Seagram';
+  src: url('../fonts/Seagram.ttf') format('truetype');
+}
+
 .navbar {
-    background-color: #b99565;
-    padding: 1rem;
+    background-color: #dea760;
+    padding: 2rem;
     
   }
   
   .navbar.sticky {
-    position: sticky;
+    position: 'sticky';
     top: 0;
   }
 
@@ -16,14 +21,16 @@
   }
   
   .logo {
-    color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
+    font-family: 'Seagram', sans-serif;
+   
   }
 
   nav ul {
     margin: 0;
     padding: 0;
+    list-style-type: none; /* Entfernt die Standardliste */
 
   }
 
@@ -31,4 +38,26 @@
     color: black;
     text-decoration: none;
   }
+
+  .navbar ul li {
+    display: inline; /* Anzeigen von Elementen als Inline-Elemente */
+    margin-right: 20px; /* Abstand zwischen den einzelnen Navigationslinks */
+  }
+  
+
+  .navbar ul li a {
+    font-size: 25px; /* Schriftgröße für Navbar-Elemente */
+    font-family: 'Dungeon', sans-serif;
+  }
+
+  /* Nav Elemente werden weiß beim drüber hovern*/
+  .navbar ul li a:hover {
+    color: whitesmoke; 
+
+  }
+
+
+  
+ 
+  
 

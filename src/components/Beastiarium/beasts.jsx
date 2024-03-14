@@ -1,21 +1,26 @@
 import React from "react";
 import { BeastData } from "../../BeastData";
 import { useNavigate } from "react-router-dom";
+import "./beasts.css";
 
 function Beasts() {
   const navigate = useNavigate();
   return (
-    <div className="listOfBeasts">
+    <div className="listOfBeasts" style={{ paddingTop: '40px' }}>
       <div className="beastList">
         {BeastData.map((beast) => {
           return (
             <div
+              key={beast.id}
               className="beastsDisplay"
-              onClick={() => {
-                navigate(`/Beasts/${beast.id}`);
-              }}
+              onClick={() => navigate(`/Beasts/${beast.id}`)}
+              
             >
-              <h1>{beast.name}</h1> <p>{beast.description}</p>{" "}
+              <img src={beast.image} alt={beast.name} className="beastImage" />
+              <div className="beastDescription">
+                <h1 style={{ marginBottom: '-10px', fontSize: '28px' }}>{beast.name}</h1>
+                <p style={{ fontSize: '19px' }}>{beast.description}</p>
+              </div>
             </div>
           );
         })}
@@ -23,5 +28,6 @@ function Beasts() {
     </div>
   );
 }
+
 
 export default Beasts;

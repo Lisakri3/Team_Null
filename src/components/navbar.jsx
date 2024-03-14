@@ -25,17 +25,17 @@ export const NavBar = () => {
   return (
     <header className={`navbar ${isSticky ? 'sticky' : ''}`}>
       <div className="container">
-        <Link to="/" className="logo">Die Taverne</Link>
+        <Link to="/" className="logo"> - Die Taverne - </Link>
       <nav>
         <ul>
           <li>
-        <Link to="Beasts"> Beastiarium </Link>
+        <Link to="Beasts"> Bestiarium </Link>
           </li>
           <li>
-            <Link to="Dicegame"> Dicegame </Link>
+            <Link to="Dicegame"> Würfelspiel </Link>
           </li>
           <li>
-            <Link to="Map"> Map </Link>
+            <Link to="Map"> Karte </Link>
           </li>
         </ul>
       </nav>
