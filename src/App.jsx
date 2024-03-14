@@ -5,6 +5,7 @@ import Home from "./components/Home.jsx";
 import Beasts from "./components/Beastiarium/beasts.jsx";
 import Dicegame from "./components/Dicegame.jsx";
 import Map from "./components/map.jsx";
+import BeastDetail from "./components/Beastiarium/beastsdetails.jsx";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="Dicegame" element={<Dicegame />} />
         <Route path="Map" element={<Map />} />
         <Route path="Beasts" element={<Beasts />} />
+        <Route path="Beasts/:id" element={<BeastDetail />} />
       </Routes>
     </Router>
     </div>

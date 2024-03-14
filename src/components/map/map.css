@@ -1,17 +1,17 @@
 
 .maptitle{
-    text-align: center; /* Text in der Mitte ausrichten */
+    text-align: center; 
     font-size: 50px;
     font-family: 'Seagram', sans-serif;
     color: black;
     background-color: #dea760;
   padding: 15px;
-  border: 3px solid #8b5e2b; /* Brauner Rahmen mit einer Dicke von 3 Pixeln */
+  border: 3px solid #8b5e2b; 
   border-radius: 10px;
 }
 
 .map {
-    width: 100vw; /* Fülle die gesamte Breite des Viewports aus */
+    width: 100vw; /* Füllt die gesamte Breite des Viewports aus */
     height: 100vh;
     overflow: hidden;
     background-image: url('../../assets/mapbg1.png');
@@ -54,7 +54,7 @@
     font-size: 24px;
     background-color: #dea760;
   padding: 5px;
-  border: 3px solid #8b5e2b; /* Brauner Rahmen mit einer Dicke von 3 Pixeln */
+  border: 3px solid #8b5e2b; 
   border-radius: 5px;
 }
 
